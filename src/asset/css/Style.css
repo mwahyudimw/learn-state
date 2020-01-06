@@ -1,0 +1,74 @@
+body{
+    background: lavender;
+}
+
+/* Style Sign In */
+#container-signin{
+    margin-top: 100px;
+    width: 50%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 50px;
+}
+.form-control{
+    margin-top: 10px;
+}
+/* Style Sign In */
+
+
+/* -------------------------------------------------------------------- */
+
+
+/* Style Beranda */
+#container-beranda{
+    background: #fff;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+#container-hasil{
+    height: 250px;
+    padding: 10px 50px;
+    background: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#form-hasil{
+    height: 50px;
+    font-size: 19px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#btn-danger{
+    margin-top: 5px;
+}
+
+#form-beranda{
+    height: 50px;
+}
+
+/* Style Beranda */
+
+
+@media only screen and (max-width:  575.98px) {
+    #container-beranda{
+        margin-top: 0;
+    }
+
+    #container-hasil{
+        background: none;
+        height: 400px;
+    }
+
+    #form-hasil{
+        background: none;
+    }
+
+    #btn-danger{
+        width: 35%;
+        margin-left: 20px;
+    }
+ }
